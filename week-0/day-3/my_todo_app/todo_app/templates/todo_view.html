@@ -1,7 +1,25 @@
-List of my todos:<br/>
+<html>
+<head>
+<title>todo Page
+</title>
+</head>
+<body>
+List of my todos </br>
 
 {% for todo in todos %}
-{{todo}}<br/>
+{{todo}} </br>
 {% endfor %}
 
----- LIST ENDS HERE ---
+-----lists ends here------------
+
+
+
+<form action="/add_todos">
+
+<input type=text name="name" value="name"></br></input>
+<input type=text name="todo" value="todo"></br></input>
+<input type=submit></br></input>
+</form>
+</body>
+</html>
+
